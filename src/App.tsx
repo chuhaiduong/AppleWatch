@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Link, Outlet, Navigate } from 'react-router-dom';
 import { IProduct } from './model/Product';
-import AddProductFrom from './AddProductFrom';
+// import AddProductFrom from './AddProductFrom';
 import Product from './component/Product';
 import {list} from './api/products';
 

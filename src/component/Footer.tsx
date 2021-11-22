@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
 
     return (
         <div>
-            <footer className="py-20" style={{ backgroundColor: '#1e1e1e' }}>
+            <footer className="py-20 bg-current">
                 <div className="container mx-auto ">
                     <div className="grid-cols-1 sm:grid grid-cols-3 ml-3 sm:ml-0 ">
                         <div>

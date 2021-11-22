@@ -2,8 +2,12 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import LayoutAdmin from "./layout/LayoutAdmin";
 import LayoutWebsite from "./layout/LayoutWebsite";
-import Product from "./component/Product";
+// import Product from "./component/Product";
 import Content from "./component/Content";
+import About from "./pages/About";
+import Product from './pages/Product';
+import Blogs from './pages/Blogs';
+import Contact from "./pages/Contact";
 import { IProduct } from "./model/Product";
 
 type Props = {
@@ -18,7 +22,11 @@ const Router: React.FC<Props>= (props) => {
 
           <Route path="/" element={<LayoutWebsite />}>
             <Route index element={<Content />} />
-            <Route path="products" element={<Product {...props} />} />
+            <Route path="about" element={<About />} />
+            <Route path="product" element={<Product />} />
+            <Route path="blogs" element = {<Blogs />} />
+            <Route path="contact" element = {<Contact />} />
+            {/* <Route path="products" element={<Product {...props} />} /> */}
           </Route>
           <Route path="admin/*" element={<LayoutAdmin />}>
             <Route index element={<Navigate to="dashboard" />} />

@@ -9,7 +9,7 @@ const Header: React.FC = () => {
 
   return (
     <div>
-      <header className="bg-yellow-900 ">
+      <header className="bg-current">
         <div className=" grid grid-cols-12 py-5 justify-items-center">
           <div className="col-span-3">
             <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/logo-mona-2.png" alt="" width="200px" height="100px" />
@@ -29,20 +29,19 @@ const Header: React.FC = () => {
             </div>
           </div>
           <div className="col-span-3 justify-items-center ">
-            <i className="fas fa-heart text-2xl text-white m-4"></i>
+            <i className="fas fa-heart text-2xl text-white m-4"><Link to ="/admin"></Link> </i>
             <i className="fal fa-shopping-bag text-4xl text-white"></i>
           </div>
         </div>
 
         <nav className="py-5 border-t border-gray-400 ">
-          <div className=" text-lg py-2 font-medium">
-            <ul className="grid grid-cols-6 px-96 ">
-              <Link to="" className="text-center text-white ">TRANG CHỦ</Link>
-              <Link to="" className="text-center text-white">GIỚI THIỆU</Link>
-              <Link to="" className="text-center text-white ">ĐỒNG HỒ NAM</Link>
-              <Link to="" className="text-center text-white">ĐỒNG HỒ NỮ</Link>
-              <Link to="" className="text-center text-white">BLOGS</Link>
-              <Link to="" className="text-center text-white ">LIÊN HỆ</Link>
+          <div className=" text-lg py-2 ">
+            <ul className="grid grid-cols-5 px-96 ">
+              <Link to="" className="text-center text-white font-semibold">TRANG CHỦ</Link>
+              <Link to="/about" className="text-center text-white font-semibold">GIỚI THIỆU</Link>
+              <Link to="/product" className="text-center text-white font-semibold">SẢN PHẨM</Link>
+              <Link to="/blogs" className="text-center text-white font-semibold">BLOGS</Link>
+              <Link to="/contact" className="text-center text-white font-semibold">LIÊN HỆ</Link>
             </ul>
           </div>
         </nav>

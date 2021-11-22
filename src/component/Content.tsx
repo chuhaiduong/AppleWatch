@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Banner from "./Banner";
 import { Link } from "react-router-dom";
 import { Menu } from "antd";
 const { SubMenu } = Menu;
@@ -9,6 +9,7 @@ const Content: React.FC = () => {
 
   return (
     <div>
+      <Banner />
       <section className="container mx-auto mt-20">
 
         <div className="grid grid-cols-1 grid lg:grid-cols-2 gap-8 mt-10 px-5">

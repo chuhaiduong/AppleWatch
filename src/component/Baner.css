@@ -1,0 +1,29 @@
+.slideItem{
+    position : relative;
+
+}
+.slideContent{
+    position : absolute;
+    top : 50%;
+    left : 25%;
+    transform : translate(-50%,-50%);
+    
+}
+.slideContent h1 {
+    color: white;
+    font-size: 70px;
+}
+.slideContent h4 {
+    color: white;
+    font-size: 40px;
+}
+.slideContent p{
+    color: white;
+    font-size: 20px;
+}
+.slideButton {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent !important;
+    border: yellow;
+}

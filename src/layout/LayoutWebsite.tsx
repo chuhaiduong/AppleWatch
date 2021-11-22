@@ -7,7 +7,7 @@ const LayoutWebsite: React.FC = () => {
   return (
     <div>
       <Header />
-      <Banner />
+      
       
       
       <Outlet />

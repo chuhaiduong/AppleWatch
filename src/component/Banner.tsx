@@ -1,29 +1,45 @@
 import { Carousel } from 'antd';
+import { relative } from 'path';
+import './Baner.css';
+import baner2 from '../images/slide-bg-1.jpg';
+import baner4 from '../images/slide-bg-2.jpg';
 
-const contentStyle = {
-    height: '500px',
-    color: '#ff4040',
-    lineHeight: '300px',
-    textAlign: 'center',
-    background: '#364d79',
-};
+
 
 const Banner: React.FC = () => {
     return (
         <div>
             <Carousel autoplay>
                 <div>
-                    <div>           
-                        <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-1.jpg" />
-                        
+                    <div className="slideItem"> 
+                        <img src={baner4}  />   
+                        <div className="slideContent">
+                            <h4 >Mona Watch</h4>
+                            <h1>Đồng hồ Classico</h1>
+                            <p>Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều thương <br /> hiệu cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về phong cách,<br /> kiểu dáng, màu sắc, kích cỡ...</p>
+                            <a className="slideButton">
+                                <span>XEM SẢN PHẨM</span>
+                            </a>
+                        </div>            
                     </div>
                 </div>
                 <div>
                     <div >
-                        <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-2.jpg" />
+                    <div className="slideItem"> 
+                        <img src={baner2}  />   
+                        <div className="slideContent">
+                            <h4>Mona Watch</h4>
+                            <h1>Đồng hồ Classico</h1>
+                            <p>Cùng với sự phát triển không ngừng của thời trang thế giới, rất nhiều thương <br /> hiệu cho ra đời những mẫu đồng hồ nam chính hãng đa dạng về phong cách,<br /> kiểu dáng, màu sắc, kích cỡ...</p>
+                            <a className="slideButton">
+                                <span>XEM SẢN PHẨM</span>
+                            </a>
+                        </div>            
+                    </div>
 
                     </div>
                 </div>
+               
                         
             </Carousel>
         </div>

@@ -33,6 +33,7 @@ const LayoutAdmin: React.FC = () => {
           Admin
         </Menu.Item>
         <Menu.Item key="6" icon={<VideoCameraOutlined />}>
+          <Link to="/"></Link>
           Trang Chủ
         </Menu.Item>
         <Menu.Item key="3" icon={<UploadOutlined />}>
