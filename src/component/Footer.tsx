@@ -14,8 +14,8 @@ const Footer: React.FC = () => {
                     <div className="grid-cols-1 sm:grid grid-cols-3 ml-3 sm:ml-0 ">
                         <div>
                             <div >
-                                <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/logo-mona-2.png" className="my-5" />
-                                <p className="text-white w-2/3 text-lg">Grabbing the concsumer’s attention isn’t enough you have
+                                <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/logo-mona-2.png" className="my-5 mx-auto" width="300px" />
+                                <p className="text-white w-2/3 text-lg mx-auto">Grabbing the concsumer’s attention isn’t enough you have
                                     to keep
                                     that
                                     attention for at
@@ -26,22 +26,22 @@ const Footer: React.FC = () => {
                         <div className="grid-cols-1 sm:grid grid-cols-2">
                             <div >
                                 <h4 className="my-5 font-bold text-xl text-white">NAVICATION</h4>
-                                <ul className="block text-white">
-                                    <li className="hover:text-red-600 my-3"><Link to="/">Home</Link></li>
-                                    <li className="hover:text-red-600 my-3"><Link to="/about">About</Link></li>
-                                    <li className="hover:text-red-600 my-3"><Link to="/products">Products</Link></li>
-                                    <li className="hover:text-red-600 my-3"><Link to="/abums">Abum</Link></li>
-                                    <li className="hover:text-red-600 my-3"><Link to="/contact">Contact</Link></li>
+                                <ul className="text-lg text-white">
+                                    <li className=" my-3 "><Link to="/">Home</Link></li>
+                                    <li className=" my-3 "><Link to="/about">About</Link></li>
+                                    <li className=" my-3 "><Link to="/products">Products</Link></li>
+                                    <li className=" my-3 "><Link to="/abums">Abum</Link></li>
+                                    <li className=" my-3 "><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </div>
                             {/*1*/}
                             <div>
                                 <h4 className="my-5 font-bold text-xl text-white">USEFUL LINKS</h4>
-                                <ul className="block text-gray-600">
-                                    <li className="hover:text-red-600 my-3"><Link to="/">Registration</Link></li>
-                                    <li className="hover:text-red-600 my-3"><Link to="/">Login</Link></li>
-                                    <li className="hover:text-red-600 my-3"><Link to="/">Policy</Link></li>
-                                    <li className="hover:text-red-600 my-3"><Link to="/">Terms &amp; Conditions</Link></li>
+                                <ul className="block text-gray-600 text-lg">
+                                    <li className=" my-3 "><Link to="/">Registration</Link></li>
+                                    <li className=" my-3 "><Link to="/">Login</Link></li>
+                                    <li className=" my-3"><Link to="/">Policy</Link></li>
+                                    <li className=" my-3"><Link to="/">Terms &amp; Conditions</Link></li>
                                 </ul>
                             </div>
                             {/*2*/}
@@ -52,19 +52,21 @@ const Footer: React.FC = () => {
                                 INSTAGRAM FEED
                             </h4>
                             <p className="text-white text-lg">Ứng dụng Mona Watch hiện có sẵn trên <br /> Google Play & App Store. Tải nó ngay.</p>
-                            <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-appstore.jpg" alt="" className="py-5" />
-                            <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-googleplay.jpg" alt="" />
+                            <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-appstore.jpg" alt="" className="py-5 mx-auto" />
+                            <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-googleplay.jpg" alt="" className=" pb-5 mx-auto " />
 
 
                         </div>
                         {/*end footer 3*/}
                     </div>
                     {/*end cols-1 footer*/}
-                    <div className="border-t border-gray-400 mx-auto flex text-white">
-                        <p>Bản quyền thuộc về.Thiết kế website anh Dương</p>
-                        <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-payment.png" alt="" className="text-right" />
-                    </div>
+                    
                 </div>
+                    <div className="border-t border-gray-400 text-white"></div>
+                    <div className="flex py-5 ">
+                         <p className="text-white mx-auto text-xl ">Bản quyền thuộc về.Thiết kế website anh Dương</p>
+                        <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-payment.png" alt="" className="mx-auto " />
+                    </div>
             </footer>
 
         </div>

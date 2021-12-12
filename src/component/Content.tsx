@@ -46,39 +46,39 @@ const Content: React.FC = () => {
           </div>
         </div>
       </section>
-      <h1 className="text-3xl font-medium ml-11 pt-24 py-3">San Pham Ban Chay</h1>
+      <h1 className="text-3xl font-bold ml-11 pt-24 py-3">Sản Phẩm Bán Chạy</h1>
       <div className="grid grid-cols-4 gap-2 py-3 container mx-auto">
         <div className="border-2 mx-auto ">
           <div><img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-02.png" /></div>
 
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+            <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2 mx-auto">
           <div><img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-03.png" /></div>
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+            <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2 mx-auto">
           <div><img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-12.jpg" /></div>
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2 mx-auto">
           <div><img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-04.png" /></div>
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
       </div>
@@ -95,13 +95,13 @@ const Content: React.FC = () => {
       </div>
 
       <div className="grid grid-cols-12 text-3xl ml-11 pt-24 py-3 container mx-auto">
-        <div className="col-span-4  font-medium hover:text-hover ">
+        <div className="col-span-4 font-bold  ">
           <h1>Sản phẩm phổ biến </h1>
         </div>
-        <div className="col-span-4 font-medium hover:text-hover">
+        <div className="col-span-4 font-bold ">
           <h1>Sản phẩm khuyến mãi</h1>
         </div>
-        <div className="col-span-4 font-medium hover:text-hover">
+        <div className="col-span-4 font-bold ">
           <h1>Sản phẩm mới</h1>
         </div>
       </div>
@@ -110,41 +110,41 @@ const Content: React.FC = () => {
         <div className="border-2  mx-auto ">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-06.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2  mx-auto">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-07.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2  mx-auto">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-12.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THEM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2  mx-auto">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-09.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2  mx-auto">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-11.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
       </div>
@@ -152,41 +152,41 @@ const Content: React.FC = () => {
         <div className="border-2  mx-auto ">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-06.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2  mx-auto">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-07.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2  mx-auto">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-12.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2  mx-auto">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-09.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2">THÊM VÀO GIỎ</button>
           </div>
         </div>
         <div className="border-2  mx-auto">
           <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/product-11.jpg" alt="" width="216px" height="252px" />
           <div className="text-center border-2">
-            <p>Classico</p>
-            <p>700,000d</p>
-            <button>Them gio hang</button>
+          <p className="font-bold text-xl">Classico</p>
+            <p className="text-yellow-600">700,000d</p>
+            <button className="bg-yellow-600 py-2"> THÊM VÀO GIỎ</button>
           </div>
         </div>
       </div>
@@ -199,8 +199,8 @@ const Content: React.FC = () => {
               <a href="#"><img
                 className="rounded-md transition duration-1000 ease-in-out hover:scale-110 transform hover:translate-y-1 w-full"
                 src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/new-3.jpg" alt="" /></a>
-              <a href="" className="font-medium text-xl">Chiếc đồng hồ của những CEO quyền lực nhất thế giới</a><br />
-              <a href="">“Một chiếc đồng hồ nói cho người khác biết bạn là tuýp người như thế nào và giá trị của bạn ra sao”.</a>
+              <a href="" className="font-bold text-2xl text-black">Chiếc đồng hồ của những CEO quyền lực nhất thế giới</a><br />
+              <a href="" className="text-black text-lg">“Một chiếc đồng hồ nói cho người khác biết bạn là tuýp người như thế nào và giá trị của bạn ra sao”.</a>
             </div>
 
           </div>
@@ -209,8 +209,8 @@ const Content: React.FC = () => {
               <a href="#"><img
                 className="rounded-md transition duration-1000 ease-in-out hover:scale-110 transform hover:translate-y-1"
                 src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/new-3.jpg" alt="" /></a>
-              <a href="" className="font-medium text-xl"> 10 thương hiệu đồng hồ cao cấp hàng đầu mọi quý ông đều quan tâm, Rolex xếp hạng số 3</a> <br />
-              <a href="">Công nghiệp sản xuất đồng hồ sang trọng có dấu hiệu chững lại trong hai năm gần đây do nhu cầu giảm.</a>
+              <a href="" className="font-bold text-2xl text-black"> 10 thương hiệu đồng hồ cao cấp hàng đầu mọi quý ông đều quan tâm, Rolex xếp hạng số 3</a> <br />
+              <a href="" className="text-black text-lg">Công nghiệp sản xuất đồng hồ sang trọng có dấu hiệu chững lại trong hai năm gần đây do nhu cầu giảm.</a>
             </div>
 
           </div>
@@ -219,8 +219,8 @@ const Content: React.FC = () => {
               <a href="#"><img
                 className="rounded-md transition duration-1000 ease-in-out hover:scale-110 transform hover:translate-y-1"
                 src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/new-3.jpg" alt="" /></a>
-              <a href="" className="font-medium text-xl">Chiếc đồng hồ của những CEO quyền lực nhất thế giới</a> <br />
-              <a href="">Được thành lập vào năm 1875 bởi Jules-Louis Audemars và Edward-Auguste Piguet, Audemars Piguet sản xuất ra 36.000</a>
+              <a href="" className="font-bold text-2xl text-black">Chiếc đồng hồ của những CEO quyền lực nhất thế giới</a> <br />
+              <a href="" className="text-black text-lg">Được thành lập vào năm 1875 bởi Jules-Louis Audemars và Edward-Auguste Piguet, Audemars Piguet sản xuất ra 36.000</a>
             </div>
 
           </div>

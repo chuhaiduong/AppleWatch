@@ -29,7 +29,7 @@ const Header: React.FC = () => {
             </div>
           </div>
           <div className="col-span-3 justify-items-center ">
-            <i className="fas fa-heart text-2xl text-white m-4"><Link to ="/admin"></Link> </i>
+            <Link to ="/admin"><i className="fas fa-heart text-2xl text-white m-4"></i></Link> 
             <i className="fal fa-shopping-bag text-4xl text-white"></i>
           </div>
         </div>
